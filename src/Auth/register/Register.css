@@ -1,0 +1,27 @@
+.acount{
+    text-align: center;
+    font-size: 40px;
+}
+.bg-secondary{
+    padding:70px;
+}
+.form{
+    background-color: #e5e8ee !important;
+    border-radius: 7px !important;
+    box-shadow: #ffffff9c 0 3px 8px;
+    width: 450px !important;
+    margin: auto;
+    padding-top: 50px;
+   
+}
+._pro_1xcbb_1{
+   background-color: #343a40 !important;
+    border-radius: 10px;
+    box-shadow: #ffffff3d 0 3px 8px;
+    height: 400px;
+    max-height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}

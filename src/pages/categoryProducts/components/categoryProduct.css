@@ -1,0 +1,38 @@
+*
+{ padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.categoryContainer{
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    gap:50px;
+    justify-content: center;
+}
+.product:hover{
+    border: 1px solid rgba(0, 0, 0, 0.356);
+   
+}
+.product{
+    width: calc ((100% - 100px) / 3);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 0;
+    margin: 0;
+}
+
+.categoryImg{
+    width:250px;
+    height: 300px;
+}
+.product h4{
+    color:black;
+    width: 180px;
+    font-size: 18px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}

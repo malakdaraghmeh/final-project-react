@@ -1,0 +1,381 @@
+.cart{
+    padding:20px 0 60px 0;
+}
+.cart-items{
+  width:1000px;
+    display: flex;
+    gap:30px;
+    padding:40px 0;
+   
+}
+
+
+.item h2{
+    font-size:25px;
+    font-weight: 500;
+    
+}
+.products{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    align-items: stretch;
+    flex-wrap: nowrap;
+    flex-grow: 1;
+    overflow-x: auto;
+
+
+}
+.products .item{
+    display: flex;
+    align-items: center;
+    gap:10px;
+    
+}
+
+.products .product-info{
+    flex-grow: 1;
+    display: flex;
+    gap:16px;
+    min-width: 240px;
+    
+}
+
+.product-item {
+    display: flex;
+    gap:50px;
+    justify-content: space-between;
+}
+ .product-info img {
+    width: 85px;
+    height:100px;
+  
+    
+}
+
+
+ .product-details {
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+.product-details h2{
+    font-size:17px;
+}
+
+
+.product-details span{
+    color:#6C7275;
+}
+.product-details a{
+    display: flex;
+    gap:10px;
+    text-decoration: none;
+    color:#6C7275;
+}
+.style {
+    display: flex;
+    align-items: center;
+    gap:10px;
+}
+.products .quantity{
+    width:120px;
+    min-width: 120px;
+    font-size:20px;
+}
+
+.products .price {
+    width:120px;
+    min-width: 120px;
+}
+.products .subtotal{
+    width:120px;
+    min-width: 120px;
+}
+.products button{
+    background-color: #fff;
+    border:0;
+}
+.products input{
+    border:0;
+    width:10%;
+}
+
+.cart-summary{
+    width: 400px;
+    padding:24px;
+    display: flex;
+    flex-direction: column;
+    gap:16px;
+    border-radius: 6px;
+    border: 2px solid #6C7275;
+    background-color: #fff;
+    margin-top: 50px;
+
+
+}
+
+.navlinkk{
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    color: white;
+    padding: 10px ;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+  
+}
+.delete{
+    color: #fff;
+}
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:900px){
+    .container{
+        width:calc(100% - 100px)
+    }
+}
+
+
+@media screen and (max-width:1200px){
+    .container{
+        width:calc(100% - 30px)
+    }
+
+}
+
+
+@media screen and (max-width: 1005px){
+    .cartss{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+};
+
+@media screen and (max-width: 900px){
+    .cartss .products{
+      gap:20px;
+      & .item{
+        gap:7px;
+        & h2{
+            font-size: 18px;
+        }
+        & .quantity{
+            font-size: 13px;
+            width:80px;
+            min-width: 80px;
+            & svg{
+                width: 14px;
+                height: 14px;
+            }
+        }
+        & .price{
+            font-size: 13px;
+            width:80px;
+            min-width: 80px;
+        }
+        & .subtotal{
+            font-size: 13px;
+            width:80px;
+            min-width: 80px;
+        }
+      }
+      & .product-info{
+       
+        gap:10px;
+        & img{
+          width: 60px;
+          height: 80px;
+        }
+        & .product-details{
+            gap:5px;
+            margin:5px ;
+           
+            & .remove{
+                gap:4px;
+                display: flex;
+                flex-wrap: wrap;
+                align-items: center;
+            & svg{
+                width: 18px;
+                height: 19px;
+            }
+            & span{
+                font-size: 14px;
+            }
+            }
+        }
+        & .style{
+            display: flex;
+            align-items: center;
+            gap:8px;
+    }   
+}
+ 
+}
+
+}
+@media screen and (max-width: 700px){
+    .cartss .products{
+        gap:15px;
+        & .item{
+          gap:5px;
+          & h2{
+              font-size: 15px;
+          }
+         
+          & .quantity{
+              font-size: 16px;
+              & svg{
+                  width: 12px;
+                  height: 12px;
+              }
+          }
+
+}
+    }
+}
+@media screen and (max-width: 650px) {
+    .cartss .products{
+        gap:10px;
+        & .item{
+         gap:17px;
+         display: flex;
+         & h2{
+            font-size: 14px;
+         }
+
+          & .quantity{
+            width:55px;
+            min-width: 55px;
+            font-size: 15px
+          }
+          & .price{
+            width:55px;
+            min-width: 55px;
+            font-size: 15px
+          }
+          & .subtotal{
+            width:55px;
+            min-width: 55px;
+            font-size: 15px
+          }
+        }
+        & .product-info{
+            gap:8px;
+            & img{
+              width: 50px;
+              height: 70px;
+            }
+            & .product-details{
+                gap: 3px;
+                margin: 3px;
+                & h2{
+                    font-size: 10px;
+                }
+                & .remove{
+                gap:3px;
+                & svg{
+                    width: 15px;
+                    height: 16px;
+                }
+                & span{
+                    font-size: 10px;
+                }
+                }
+            }
+
+        }
+    }
+}
+    
+@media screen and (max-width: 472px){
+    .products{
+        gap:10px;
+        & h2{
+            font-size: 12px;
+        }
+    }
+    & .product-info{
+        gap:7px;
+        & img{
+          width: 40px;
+          height: 50px;
+        }
+    }
+    .subtotal {
+       display: none;
+    }
+    .price{
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .cartss .products{
+        gap:8px;
+        & .item{
+         gap:3px;
+            & h2{
+                font-size: 10px;
+            }
+          & .quantity{
+            width:40px;
+            min-width: 40px;
+            font-size: 12px;
+          }
+          & .price{
+            width:40px;
+            min-width: 40px;
+            font-size: 12px;
+          }
+          & .subtotal{
+            width:40px;
+            min-width: 40px;
+          }
+        }
+    }
+}
+@media screen and (max-width: 370 ){
+    .item{
+        gap:10px;
+    & h2{
+      font-size: 10px;
+    }
+}
+       .price{
+        font-size: 10px;
+       }
+       
+        img{
+            width: 30px;
+            height: 40px;
+        }
+    
+    
+}

@@ -1,0 +1,10 @@
+.swiper-button-prev,.swiper-button-next{
+    color:black;
+}
+@media screen and (max-width:989px) {
+    img{
+        width: 90px;
+        height: 100px;
+    }
+    
+}

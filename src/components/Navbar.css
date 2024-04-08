@@ -1,0 +1,8 @@
+.style-Icons{
+    color:black;
+  
+}
+.stylenav{
+    display: flex;
+    justify-content: space-evenly;
+}
